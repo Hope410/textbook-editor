@@ -1,21 +1,23 @@
 {
   "name": "textbook-editor",
   "version": "0.0.1",
-  "description": "A Quasar Framework app",
-  "productName": "Quasar App",
+  "description": "Работа выполнена студентом группы ПМ-1-17 Бабкиным Тимуром, КГЭУ",
+  "productName": "Редактор учебников",
   "cordovaId": "org.cordova.quasar.app",
   "author": "Timur Babkin <timurbabkin.pshh@gmail.com>",
   "private": true,
   "scripts": {
+    "start": "quasar dev -m ssr",
     "test": "echo \"No test specified\" && exit 0"
   },
   "dependencies": {},
   "devDependencies": {
+    "vue-cli": "^2.9.6",
     "quasar-cli": "^0.17.0",
     "strip-ansi": "=3.0.1"
   },
   "engines": {
-    "node": ">= 8.9.0",
+    "node": "10.x",
     "npm": ">= 5.6.0",
     "yarn": ">= 1.6.0"
   },
